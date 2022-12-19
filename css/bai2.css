@@ -1,0 +1,40 @@
+:root{
+    color:aliceblue;
+    font-size: 16px;
+}
+.background{
+    width:100%;
+    height:415px;
+    background:url(./../images/bai2/nen2.svg) no-repeat;
+    display:flex;
+   justify-content: space-around; 
+   align-items: center;
+   position: relative;
+   text-align: center;
+}
+.background__part1-icon1{
+    width:145px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+.background__part2-icon2{
+    width:145px;
+}
+
+.background__part3-icon3{
+    width:145px;
+}
+h1{
+    position:absolute;
+    top:30px;
+    left:40px
+}
+ul{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

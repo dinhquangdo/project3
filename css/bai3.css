@@ -1,0 +1,35 @@
+.grid-container-1{
+    display:grid;
+    gap:15px;
+    padding:10px
+}
+.grid-container-2{
+    display:grid;
+    gap:15px;
+    padding:10px;
+    grid-template-columns: auto auto auto
+}
+.grid-item1{
+    background:#8e7cc3;
+    width:450px;
+    height:70px;
+    border:2px solid black
+}
+.grid-item2{
+    background:#e06666;
+    width: 130px;
+    height:245px;
+    border:2px solid black
+}
+.grid-item3{
+    background:#93c47d;
+    width: 130px;
+    height:245px;
+    border:2px solid black
+}
+.grid-item4{
+    background:#ff9900;
+    width: 130px;
+    height:245px;
+    border:2px solid black
+}
